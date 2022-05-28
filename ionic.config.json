@@ -1,0 +1,7 @@
+{
+  "name": "desafio_vlabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

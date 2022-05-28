@@ -9,9 +9,9 @@ import { connectableObservableDescriptor } from 'rxjs/internal/observable/Connec
 export class ApiService {
   private api = 'http://157.230.55.217/api/escolas';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  readData(){
+  lerDados(){
     return this.http.get(this.api);
   }
 
